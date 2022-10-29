@@ -153,11 +153,11 @@ public static void main(String[] args) {  // Test method for the class.
    //System.out.println("\nTest for convertToPostfix:\n");
 
    for (int i=0; i<testString.length; i++) {
-      System.out.println("infix: " + testString.length);
-      System.out.println("postfix: " + converter.convertToPostfix(testString[i]));
+    //  System.out.println("infix: " + testString.length);
+    //  System.out.println("postfix: " + converter.convertToPostfix(testString[i]));
       System.out.println("postfix evaluation: " + converter.evaluate( converter.convertToPostfix(testString[i])));
       
-      System.out.println();
+      //System.out.println();
    }
 } 
 }
